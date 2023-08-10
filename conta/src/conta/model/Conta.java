@@ -68,7 +68,7 @@ public class Conta {
         this.setSaldo(this.getSaldo() + valor);
     }
 
-    public void visualizador(){
+    public void visualizar(){
         String tipo = "";
 
         switch (this.tipo){
